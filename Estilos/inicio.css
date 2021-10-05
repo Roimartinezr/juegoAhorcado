@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+header h1#inicio {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-size: 15mm;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+div#cuerpo h2#inicio {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#cuerpo div#inicio {
+    text-align: center;
+}
+div#cuerpo div#inicio a:link {
+    background-color: rgb(22, 22, 22);
+    background-image: url("./Imagenes/play.png");
+    background-size: 30px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 40px 40px;
+    margin-top: 10px;
+}
+div#cuerpo div#inicio a:hover {
+    background-size: 35px;
+}
+div#cuerpo div#inicio a:active {
+    box-sizing: border-box;
+    background-size: 30px;
+    background-image: url("./Imagenes/playActive.png");
+    background-color: rgb(116, 116, 121);
+    border: 1px solid black;
+}
